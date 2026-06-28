@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="650" viewBox="0 0 1320 650" role="img" aria-label="AI coding tools selection map">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#edf4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f2a4a" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title{font:800 40px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#102033}
+      .sub{font:500 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#64748b}
+      .card-title{font:760 24px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#152238}
+      .card-sub{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5e6f88}
+      .tool{font:750 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#2563eb}
+      .line{stroke:#93a9c8;stroke-width:3;stroke-linecap:round;stroke-dasharray:7 9}
+    </style>
+  </defs>
+  <rect width="1320" height="650" rx="34" fill="url(#bg)"/>
+  <circle cx="1120" cy="118" r="150" fill="#dbeafe" opacity=".62"/>
+  <circle cx="190" cy="550" r="160" fill="#e0f2fe" opacity=".70"/>
+  <text x="68" y="82" class="title">AI 编程工具中文选型指南</text>
+  <text x="70" y="118" class="sub">终端 Agent · AI IDE · VS Code 扩展 · 开源可控 · 学生/科研/开源维护场景</text>
+
+  <path d="M266 315 C410 205, 475 205, 620 315" class="line" fill="none"/>
+  <path d="M700 315 C830 205, 910 205, 1056 315" class="line" fill="none"/>
+  <path d="M266 315 C420 465, 900 465, 1056 315" class="line" fill="none"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="205" width="300" height="205" rx="26" fill="#fff"/>
+    <text x="102" y="258" class="card-title">终端 Agent</text>
+    <text x="102" y="290" class="card-sub">适合 repo 自动修改、测试、脚本化</text>
+    <text x="102" y="332" class="tool">Codex CLI · Claude Code</text>
+    <text x="102" y="362" class="tool">Gemini CLI · Aider</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="510" y="205" width="300" height="205" rx="26" fill="#fff"/>
+    <text x="542" y="258" class="card-title">AI IDE</text>
+    <text x="542" y="290" class="card-sub">适合开箱即用、编辑器内体验</text>
+    <text x="542" y="332" class="tool">Cursor · Windsurf</text>
+    <text x="542" y="362" class="tool">GitHub Copilot</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="950" y="205" width="300" height="205" rx="26" fill="#fff"/>
+    <text x="982" y="258" class="card-title">VS Code Agent</text>
+    <text x="982" y="290" class="card-sub">适合不换编辑器、模型可配置</text>
+    <text x="982" y="332" class="tool">Cline · Roo Code</text>
+    <text x="982" y="362" class="tool">Continue</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="325" y="480" width="300" height="95" rx="24" fill="#fff"/>
+    <text x="357" y="532" class="card-title">开源可控</text>
+    <text x="357" y="560" class="card-sub">Continue · Aider · opencode · Qwen Code</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="695" y="480" width="300" height="95" rx="24" fill="#fff"/>
+    <text x="727" y="532" class="card-title">成本与安全</text>
+    <text x="727" y="560" class="card-sub">API key · 沙箱 · diff · 测试 · 预算限制</text>
+  </g>
+</svg>

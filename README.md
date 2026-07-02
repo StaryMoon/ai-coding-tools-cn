@@ -16,6 +16,12 @@
 
 如果这个项目帮你少踩一个 AI coding 工具坑，欢迎 star。后续会继续补充截图、配置模板、真实工作流和中文避坑。
 
+<p align="center">
+  <img src="assets/screenshots/openai-codex.png" alt="OpenAI Codex public GitHub page screenshot" width="880">
+</p>
+
+<sub>图片来源：OpenAI Codex 公开 GitHub 页面截图，[https://github.com/openai/codex](https://github.com/openai/codex)。截图用于说明工具入口来源，不代表官方背书。</sub>
+
 ## 一句话结论
 
 - 想在终端里让 agent 改 repo：优先看 **OpenAI Codex CLI**、**Claude Code**、**Gemini CLI**、**Aider**。
